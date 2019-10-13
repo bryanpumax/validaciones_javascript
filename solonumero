@@ -5,3 +5,9 @@ function numeros(e) {
   te = String.fromCharCode(tecla);
   return patron.test(te);
 }
+
+
+//su  uso
+
+<input   type="text"  onchange="" name="telefono" id="telefono_alumno"
+onkeypress="return numeros(event);" placeholder="0999999999"  >
