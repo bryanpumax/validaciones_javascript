@@ -19,3 +19,5 @@ function limitar(e, contenido, caracteres) {
 
 	return true;
 }
+  onkeypress="return  letra(event);"
+                                        onkeyup="return limitar(event,this.value,30);" 
